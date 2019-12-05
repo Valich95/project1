@@ -1,0 +1,72 @@
+/*Valentin Podgornyy*/
+
+body{/* this block of code control style of text and place everything in the middle */
+    font-family: arial, helvetica, sans-serif;
+    width: 540px;
+    margin: 0 auto;
+    }/* this block of code shows start window and set up colour of this window */
+    #start{
+        background-color: gray;
+        display: block;
+    }/* this block of code shows play window and set up colour of this window */
+    #play{
+        background-color: skyblue;
+        display: none;
+    }/* this block of code set up both windows size and put all the text inside the windows in the middle */
+    .common{
+        width:500px;
+        height:560px;
+        text-align:center;
+        padding:20px;
+        
+    }/* this block of code just set up area where it cover and show "play again" button */
+    .common2{
+        background-color: skyblue;
+        width:150px;
+        height:30px;
+        margin:auto;
+        text-align:center;
+    }
+    .row{/* this block of code resize all the pictures to 100px by 100px */ 
+        width:100px;
+        height:100px;
+    }/* this two blocks of code just cover and show "play again" button */
+    #off{
+        display: none;
+    }
+    #on{
+        display: block;
+    }/* this block of code set up information area */
+    #infoStyle {
+        width:304px;
+        height:230px;
+        border-style: solid;
+        border-width: 3px;
+        background-color: skyblue;
+        margin:auto;
+        text-align:center;
+    }/* this 8 blocks of code set up information inline */
+    #Round1 {
+        display:inline-block;margin-right:10px;
+    } 
+    #Round2 {
+        display:inline-block;
+    } 
+    #Player1 {
+        display:inline-block;margin-right:10px;
+    } 
+    #Player2 {
+        display:inline-block;margin-right:10px;
+    } 
+    #Computer1 {
+        display:inline-block;margin-right:10px;
+    } 
+    #Computer2 {
+        display:inline-block;margin-right:10px;
+    }
+    #Tie1 {
+        display:inline-block;margin-right:10px;
+    } 
+    #Tie2 {
+        display:inline-block;margin-right:10px;
+    } 
